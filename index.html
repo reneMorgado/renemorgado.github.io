@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Enviar datos</title>
+</head>
+<body>
+    <div class="addProject">
+
+        <label for="cat">Tipo de proyecto:</label>
+        <select name="cat" id="cat">
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+        </select>
+
+        <label for="name">Nombre</label>
+        <input type="text" name="name"id="name">
+
+        <label for="description">Descripcion</label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+        <label for="leng">Lenguajes: </label>
+        <input type="text" name="leng" id="leng">
+
+        <label for="link">Link a repo en github: </label>
+        <input type="text" name="link" id="link">
+
+        <label for="gif">Link a gif en servidor: </label>
+        <input type="text" name="gif" id="gif" value="/static/img/proyectos/blog_.gif">
+
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
+<script src="./methods.js"></script>
+</html>
