@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Enviar datos</title>
+    <link rel="stylesheet" href="css/blog-top.css">
+    <link rel="stylesheet" href="css/blog-contact.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/blog-recomended.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/mobile-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="https://kit.fontawesome.com/6e16c16f00.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <title>
+        René Morgado
+    </title>
 </head>
+
 <body>
-    <div class="addProject">
-
-        <label for="cat">Tipo de proyecto:</label>
-        <select name="cat" id="cat">
-            <option value="Frontend">Frontend</option>
-            <option value="Backend">Backend</option>
-        </select>
-
-        <label for="name">Nombre</label>
-        <input type="text" name="name"id="name">
-
-        <label for="description">Descripcion</label>
-        <textarea name="description" id="description" cols="30" rows="10"></textarea>
-
-        <label for="leng">Lenguajes: </label>
-        <input type="text" name="leng" id="leng">
-
-        <label for="link">Link a repo en github: </label>
-        <input type="text" name="link" id="link">
-
-        <label for="gif">Link a gif en servidor: </label>
-        <input type="text" name="gif" id="gif" value="/static/img/proyectos/blog_.gif">
-
-    </div>
+    <section class="blog-top">
+        <div class="background-top-opacity wow animate__fadeInDownBig" data-wow-iteration="1" data-wow-duration="1.2s">
+            <img src="img/Logo_white.png" alt="logo">
+            <h1 class="welcome-title animated wobble">
+                ¡Bienvenido!
+            </h1>
+            <h3 class="welcome-desc">
+                Mi nombre es René y en esta página podrás conocer algunos proyectos en los que he trabajado
+            </h3>
+            <button class="projects-button">
+                <a href="/projects">Proyectos</a>
+            </button>
+            <button onclick="" class="about-button">
+               <a href="#aboutme">Sobre mi</a>
+            </button>
+        </div>
+    </section>
+    <section class="blog-contact wow animate__fadeIn" data-wow-iteration="1" data-wow-duration="2s" data-wow-delay="1.5s">
+        <h1 class="blog-contact-title animated pulse">Contacto</h1>
+        <div class="blog-contact-gmail">
+            <img src="img/gmail.png" alt="" class="gmail-image">
+            <h4 class="gmail-desc">Puedes enviarme un mail a: <span class="subrayado">renemorgado33@gmail.com</span> </h4>
+        </div>
+        <div class="blog-contact-instagram">
+            <img src="img/instagram.png" alt="" class="instagram-image">
+            <h4 class="instagram-desc">Sigueme en instagram como: <span class="subrayado">@morgado_rene</span></h4>
+        </div>
+        <div class="blog-contact-linkedin">
+            <img src="img/download.png" alt="" class="linkedin-image">
+            <h4 class="linkedin-desc">Visita mi perfil en platzi: <span class="subrayado">@rene-morgado</span></h4>
+        </div>
+    </section>
+    <section class="blog-recomended" id="aboutme">
+        <div class="background-bottom-opacity">
+            <h1 class="about-title animated bounce wow animate__fadeInDown" data-wow-iteration="1" data-wow-duration="2s">Sobre mi</h1>
+            <p class="about-text wow animate__fadeInLeft" data-wow-iteration="1" data-wow-duration="2s">
+                Actualmente me encuentro estudiando Ingeniería en Telemática en la Unidad Profesional Interdisciplinaria en Ingenierías y Tecnologías Avanzadas del Instituto Politécnico Nacional, además, soy estudiante activo en Platzi y Udemy.
+                <br><i class="fas fa-graduation-cap"></i>
+            </p>
+            <p class="about-text about-text-below wow animate__fadeInRight" data-wow-iteration="1" data-wow-duration="2s">
+                Empleo herramientas como Javascript (Vanilla, NodeJS, ReactJS, Deno, Typescript, SailsJS), Bases de datos SQL y NoSQL, Linux, Python, Java y C++ para colaborar en proyectos para empresas privadas. Resido en CDMX.
+                <br><i class="fas fa-business-time"></i>
+            </p>
+        </div>
+    </section>
+    <footer class="blog-footer">
+        <ul class="social-container">
+            <li class="social-item"><a href="https://www.linkedin.com/in/rene-morgado-57619a1b1/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-item"><a href="https://www.instagram.com/morgado_rene/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+            <li class="social-item"><a href="https://twitter.com/Morgado_07" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="social-item"><a href="https://github.com/reneMorgado" target="_blank"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+    </footer>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
-<script src="./methods.js"></script>
+
 </html>

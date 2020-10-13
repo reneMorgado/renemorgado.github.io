@@ -1,0 +1,298 @@
+@media(max-width: 1400px) {
+    * {
+        --top-font-size: 40px;
+    }
+    .gmail-desc {
+        font-size: .4rem;
+    }
+    .instagram-desc {
+        font-size: .4rem;
+    }
+    .linkedin-desc {
+        font-size: .4rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    * {
+        --top-font-size: 35px;
+    }
+    .gmail-desc {
+        font-size: .3rem;
+    }
+    .instagram-desc {
+        font-size: .3rem;
+    }
+    .linkedin-desc {
+        font-size: .3rem;
+    }
+}
+
+@media(max-width: 790px) {
+    * {
+        --top-font-size: 35px;
+    }
+    .blog-contact {
+        height: 100vh;
+        width: 90%;
+        padding: 5vh 5%;
+        display: grid;
+        grid-template-columns: 100% 0 0;
+        grid-template-rows: 10% 30% 30% 30%;
+    }
+    .blog-contact-title {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .blog-contact-gmail {
+        grid-area: 2 / 1 / 3 / 2;
+        justify-content: space-around;
+    }
+    .gmail-image {
+        width: 15%;
+    }
+    .gmail-desc {
+        font-size: .8rem;
+    }
+    .subrayado {
+        font-size: .8rem;
+    }
+    .blog-contact-instagram {
+        grid-area: 3 / 1 / 4 / 2;
+        justify-content: space-around;
+    }
+    .instagram-image {
+        width: 15%;
+    }
+    .instagram-desc {
+        font-size: .8rem;
+    }
+    .blog-contact-linkedin {
+        grid-area: 4 / 1 / 5 / 2;
+        justify-content: space-around;
+    }
+    .linkedin-image {
+        width: 15%;
+    }
+    .linkedin-desc {
+        font-size: .8rem;
+    }
+    .blog-recomended {
+        height: 110vh;
+    }
+    .background-bottom-opacity {
+        height: 100vh;
+        width: 90%;
+        position: relative;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.829);
+        display: grid;
+        padding: 5vh 5%;
+        grid-template-rows: 10% 40% 40%;
+        grid-template-columns: 100% 0;
+    }
+    .about-text-below {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .about-text {
+        padding: 3vh 3vw;
+        color: var(--top-font-color);
+        font-size: .7rem;
+        font-weight: 300;
+        transition: 1000ms;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .blog-top {
+        height: 110vh;
+    }
+    .background-top-opacity {
+        height: 100vh;
+        grid-template-columns: 100% 0% 0%;
+        grid-template-rows: 15% 20% 40% 10% 5% 10%;
+    }
+    .background-top-opacity img {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 60%;
+        justify-self: center;
+    }
+    .welcome-title {
+        grid-area: 2 / 1 / 3 / 2;
+        font-size: 1.3rem;
+    }
+    .welcome-desc {
+        grid-area: 3 / 1 / 4 / 2;
+        font-size: .6rem;
+    }
+    .projects-button {
+        grid-area: 4 / 1 / 5 / 2;
+        font-size: .5rem;
+    }
+    .about-button {
+        grid-area: 6 / 1 / 7 / 2;
+        font-size: .5rem;
+    }
+    .gmail-desc {
+        font-size: .5rem;
+    }
+    .subrayado {
+        font-size: .5rem;
+    }
+    .instagram-desc {
+        font-size: .5rem;
+    }
+    .linkedin-desc {
+        font-size: .5rem;
+    }
+    .social-container {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:440px) {
+    .about-text {
+        font-size: .4rem;
+    }
+    .background-top-opacity img {
+        width: 70%;
+        height: auto;
+    }
+    .welcome-title {
+        font-size: .8rem;
+    }
+    .gmail-desc {
+        font-size: .4rem;
+    }
+    .subrayado {
+        font-size: .4rem;
+    }
+    .instagram-desc {
+        font-size: .4rem;
+    }
+    .linkedin-desc {
+        font-size: .4rem;
+    }
+}
+
+@media(max-width:270px) {
+    .blog-contact-gmail {
+        flex-direction: column;
+    }
+    .gmail-desc {
+        font-size: .6rem;
+    }
+    .subrayado {
+        font-size: .3rem;
+    }
+    .blog-contact-instagram {
+        flex-direction: column;
+    }
+    .instagram-desc {
+        font-size: .6rem;
+    }
+    .linkedin-desc {
+        font-size: .6rem;
+    }
+    .blog-contact-linkedin {
+        flex-direction: column;
+    }
+    .social-item i {
+        font-size: 5vh;
+    }
+    .about-text {
+        font-size: .4rem;
+    }
+}
+
+@media(max-height: 500px) {
+    .blog-top {
+        height: 110vh;
+    }
+    .background-top-opacity {
+        height: 100vh;
+        grid-template-columns: 100% 0% 0%;
+        grid-template-rows: 15% 20% 40% 10% 5% 10%;
+    }
+    .background-top-opacity img {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 60%;
+        justify-self: center;
+    }
+    .welcome-title {
+        grid-area: 2 / 1 / 3 / 2;
+        font-size: 1.3rem;
+    }
+    .welcome-desc {
+        grid-area: 3 / 1 / 4 / 2;
+        font-size: .6rem;
+    }
+    .projects-button {
+        grid-area: 4 / 1 / 5 / 2;
+        font-size: .5rem;
+    }
+    .about-button {
+        grid-area: 6 / 1 / 7 / 2;
+        font-size: .5rem;
+    }
+    .gmail-desc {
+        font-size: .5rem;
+    }
+    .subrayado {
+        font-size: .5rem;
+    }
+    .social-container {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .background-top-opacity img {
+        width: 70%;
+        height: auto;
+    }
+    .welcome-title {
+        font-size: .8rem;
+    }
+    .instagram-desc {
+        font-size: .4rem;
+    }
+    .linkedin-desc {
+        font-size: .4rem;
+    }
+    .blog-contact-gmail {
+        flex-direction: column;
+    }
+    .gmail-desc {
+        font-size: .6rem;
+    }
+    .subrayado {
+        font-size: .4rem;
+    }
+    .blog-contact-instagram {
+        flex-direction: column;
+    }
+    .instagram-desc {
+        font-size: .6rem;
+    }
+    .linkedin-desc {
+        font-size: .6rem;
+    }
+    .blog-contact-linkedin {
+        flex-direction: column;
+    }
+    .social-item i {
+        font-size: 6vh;
+    }
+    .about-text {
+        font-size: .4rem;
+    }
+    .gmail-image {
+        width: 5%;
+    }
+    .instagram-image {
+        width: 5%;
+    }
+    .linkedin-image {
+        width: 5%;
+    }
+}

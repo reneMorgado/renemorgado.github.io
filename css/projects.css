@@ -1,0 +1,120 @@
+.projects-projectsitself {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-card-container {
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 10% 5% 20% 30% 5% 10% 10% 5% 5%;
+    grid-template-columns: 5% 30% 15% 45% 5%;
+    transition: 300ms;
+}
+
+.project-card-container:hover {
+    transform: scale(1.01);
+    transition: 300ms;
+}
+
+.card-cate-container {
+    grid-area: 1 / 1 / 2 / 3;
+    border-top: 2px solid var(--nav-font-color);
+    border-left: 2px solid var(--nav-font-color);
+    border-right: 2px solid var(--nav-font-color);
+    border-top-right-radius: var(--pro-border);
+    border-top-left-radius: var(--pro-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pro-background)
+}
+
+.card-cate {
+    font-size: .7rem;
+}
+
+.card-cate i {
+    font-size: .6rem;
+}
+
+.card-draw {
+    grid-area: 2 / 1 / 9 / -1;
+    border: 2px solid var(--nav-font-color);
+    border-top-right-radius: var(--pro-border);
+    border-bottom-right-radius: var(--pro-border);
+    border-bottom-left-radius: var(--pro-border);
+    background-color: var(--pro-background)
+}
+
+.card-title-container {
+    grid-area: 3 / 2 / 4 / 4;
+}
+
+.card-title {
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.card-desc-container {
+    grid-area: 4 / 2 / 8 / 4;
+}
+
+.card-desc {
+    font-size: .5rem;
+}
+
+.card-gif-container {
+    grid-area: 3 / 4 / 5 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-gif-container img {
+    height: 70%;
+    border-radius: var(--pro-border);
+}
+
+.card-git-container {
+    grid-area: 6 / 4 / 7 / 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 500ms;
+}
+
+.card-git-container:hover {
+    color: rgb(160, 0, 160);
+    transition: 500ms;
+}
+
+.card-git-container i {
+    font-size: .8rem;
+}
+
+.card-git-container a {
+    font-size: .8rem;
+    color: var(--nav-font-color);
+    text-decoration: none;
+}
+
+.card-git-container a i {
+    font-size: .6rem;
+}
+
+.card-lang-container {
+    grid-area: 7 / 4 / 8 / 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-lang-container p {
+    font-size: .4rem;
+}
