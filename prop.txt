@@ -1,0 +1,3 @@
+dos cilindros concentricos de radio a y b están separados por un material de conductividad {sigma}.
+Si ellos se mantienen a una diferencia de potencial V, ¿Qué corriente fluye del cilindro a al cilindro b 
+en la longitud {l}? 
