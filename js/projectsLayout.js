@@ -1,13 +1,13 @@
 const proyectsLayoutF = (p) => {
     const view = `
         <div class="project-card-container wow animate__fadeInLeft" data-wow-duration="2s" data-wow-iteration="1">
-            <div class="card-cate-container">
+            <div class="card-cate-container card-cate-container-fr">
                 <p class="card-cate">
                 <i class="fas fa-paint-brush"></i>
                         ${p.cat}
                 </p>
             </div>
-            <div class="card-draw"></div>
+            <div class="card-draw card-cate-container-fr"></div>
             <div class="card-title-container">
                 <p class="card-title">
                     ${p.name}
@@ -39,13 +39,13 @@ const proyectsLayoutF = (p) => {
 const proyectsLayoutR = (p) => {
     const view = `
         <div class="project-card-container wow animate__fadeInLeft" data-wow-duration="2s" data-wow-iteration="1">
-            <div class="card-cate-container">
+            <div class="card-cate-container card-cate-container-re ">
                 <p class="card-cate">
                 <i class="fas fa-globe-americas"></i>
                         ${p.cat}
                 </p>
             </div>
-            <div class="card-draw"></div>
+            <div class="card-draw card-cate-container-re"></div>
             <div class="card-title-container">
                 <p class="card-title">
                     ${p.name}
@@ -77,13 +77,13 @@ const proyectsLayoutR = (p) => {
 const proyectsLayoutB = (p) => {
     const view = `
         <div class="project-card-container wow animate__fadeInLeft" data-wow-duration="2s" data-wow-iteration="1">
-            <div class="card-cate-container">
+            <div class="card-cate-container card-cate-container-ba">
                 <p class="card-cate">
                 <i class="fas fa-server"></i>
                         ${p.cat}
                 </p>
             </div>
-            <div class="card-draw"></div>
+            <div class="card-draw card-cate-container-ba"></div>
             <div class="card-title-container">
                 <p class="card-title">
                     ${p.name}

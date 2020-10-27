@@ -35,6 +35,18 @@
     background-color: var(--pro-background)
 }
 
+.card-cate-container-re {
+    background-color: rgba(186, 225, 255, .5)
+}
+
+.card-cate-container-ba {
+    background-color: rgba(186, 225, 201, .5)
+}
+
+.card-cate-container-fr {
+    background-color: var(--pro-background)
+}
+
 .card-cate {
     font-size: .7rem;
 }
@@ -49,7 +61,6 @@
     border-top-right-radius: var(--pro-border);
     border-bottom-right-radius: var(--pro-border);
     border-bottom-left-radius: var(--pro-border);
-    background-color: var(--pro-background)
 }
 
 .card-title-container {
