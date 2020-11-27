@@ -41,11 +41,11 @@ const proyectsLayoutFU = (p) => {
         <div class="project-card-container wow animate__fadeInLeft" data-wow-duration="2s" data-wow-iteration="1">
             <div class="card-cate-container card-cate-container-fu">
                 <p class="card-cate">
-                <i class="fas fa-paint-brush"></i>
+                <i class="fas fa-network-wired"></i>
                         ${p.cat}
                 </p>
             </div>
-            <div class="card-draw card-cate-container-fr"></div>
+            <div class="card-draw card-cate-container-fu"></div>
             <div class="card-title-container">
                 <p class="card-title">
                     ${p.name}
