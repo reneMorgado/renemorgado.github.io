@@ -29,6 +29,11 @@ const renderProjects = () => {
         $CONTAINER.innerHTML += proyectsLayoutR(p)
     })
 
+    fullstack = projects.filter(f => { return f.cat === "Fullstack" })
+    fullstack.forEach(p => {
+        $CONTAINER.innerHTML += proyectsLayoutFU(p)
+    })
+
     backend = projects.filter(b => { return b.cat === "Backend" })
     backend.forEach(p => {
         $CONTAINER.innerHTML += proyectsLayoutB(p)
@@ -38,8 +43,6 @@ const renderProjects = () => {
     frontend.forEach(p => {
         $CONTAINER.innerHTML += proyectsLayoutF(p)
     })
-
-
 }
 
 loadData();
