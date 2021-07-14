@@ -4,6 +4,7 @@
     font-family: 'Quicksand', sans-serif;
     --top-font-size: 50px;
     --top-font-color: white;
+    --top-anchor-color: rgba(198, 223, 255, 0.733);
     --nav-font-color: black;
     --pro-border: 10px;
     --pro-background: rgba(248, 236, 212, 0.329);

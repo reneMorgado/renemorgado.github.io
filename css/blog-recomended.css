@@ -28,10 +28,23 @@
 .about-text {
     padding: 3vh 3vw;
     color: var(--top-font-color);
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 300;
     transition: 1000ms;
     text-align: center;
+}
+
+.about-text a{
+    font-size: .7rem;
+    font-weight: 300;
+    transition: 1000ms;
+    color: var(--top-anchor-color);
+    text-decoration: none;
+}
+
+.about-text a:hover{
+    transition: 1000ms;
+    text-decoration: underline;
 }
 
 .about-text i {
