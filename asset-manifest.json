@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b205e9c.chunk.css",
+    "main.js": "/static/js/main.c08c38ad.chunk.js",
+    "main.js.map": "/static/js/main.c08c38ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ac38de82.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ac38de82.js.map",
+    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
+    "static/js/2.90035591.chunk.js": "/static/js/2.90035591.chunk.js",
+    "static/js/2.90035591.chunk.js.map": "/static/js/2.90035591.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.7b205e9c.chunk.css.map": "/static/css/main.7b205e9c.chunk.css.map",
+    "static/js/2.90035591.chunk.js.LICENSE.txt": "/static/js/2.90035591.chunk.js.LICENSE.txt",
+    "static/media/General.scss": "/static/media/bg.93fc9675.jpeg",
+    "static/media/logo.21570662.png": "/static/media/logo.21570662.png",
+    "static/media/photo.b0e32938.jpeg": "/static/media/photo.b0e32938.jpeg",
+    "static/media/upiita.056d29af.png": "/static/media/upiita.056d29af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac38de82.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.90035591.chunk.js",
+    "static/css/main.7b205e9c.chunk.css",
+    "static/js/main.c08c38ad.chunk.js"
+  ]
+}
