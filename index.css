@@ -1,0 +1,88 @@
+.blue-bg{
+    background: radial-gradient(circle, rgba(2,77,223,1) 0%, rgba(2,77,233,1) 40%, rgba(2,77,233,1) 100%);
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    position: relative;
+    width: 45%;
+    margin: 16px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin: 32px 16px 8px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid rgba(128, 128, 128, 0.344);
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.solicitud{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 16px 16px 0px;
+}
+
+.desc{
+    font-size: 14px;
+    margin: 8px 32px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.desc-black{
+    font-size: 14px;
+    margin: 8px 32px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.button{
+    width: 200px;
+    color: white;
+    background-color: #024ddf;
+    border: none;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
